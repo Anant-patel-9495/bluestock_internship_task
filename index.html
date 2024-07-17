@@ -4,27 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bluestock</title>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-pM+q26gy5oDXM1y+s2IXQ2m5G+D0P6yY8x8Y/01710E14D050f713651702A04B3B744494F44F6/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom">
         <div class="container-fluid">
 
             <!-- company logo and button -->
-            <a class="navbar-brand" href="#">
-                <img src="/company_logo/image.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                Bootstrap
+            <a class="d-flex align-items-center navbar-brand" href="#">
+                <img src="/company_logo/image.png" alt="" width="44" height="26">
+                <b class="fs-3">Bootstrap</b>
             </a>
 
-            <!-- button for responsivness -->
 
+            <!-- button for responsivness -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
-                <img src="signs/image.png" alt="Toggle navigation" style="width: 30px; height: 30px;">
+                <span class="navbar-toggler-icon"></span>
             </button>
+
+
             <!-- navbar Center Part -->
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav mx-auto">
@@ -52,6 +61,7 @@
                     </li>
                 </ul>
 
+
                 <!-- Sign Up Part -->
                 <div class="navbar-nav">
                     <a class="nav-link text-secondary" href="#">Sign In</a>
@@ -61,9 +71,474 @@
         </div>
     </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <!-------------------------------------------------------------------------------------------------------------------------- -->
+
+
+    <div class="container d-flex flex-column align-items-center">
+        <div id="side-menu">
+            <div class="d-flex justify-content-center">
+                <div class="mt-4 content-wrapper">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-3 bg-white sidebar-1">
+                            <ul class="list-unstyled mt-2 sidebar-list">
+                                <li class="mb-3"><a class="text-decoration-none" href=""><img
+                                            src="signs/active_clients_icon.png" alt="">&nbsp; Active Clients</a></li>
+                                <li class="mb-3"><a class="text-decoration-none" href=""><img
+                                            src="signs/charges_icon.png" alt="">&nbsp;
+                                        Charges</a></li>
+                                <li class="mb-3"><a class="text-decoration-none" href=""><img
+                                            src="signs/complaints_icon.png" alt="">&nbsp; Complaints</a></li>
+                                <li class="mb-3"><a class="text-decoration-none" href=""><img
+                                            src="signs/share_holding_icon.png" alt="">&nbsp; Share Holding</a></li>
+                                <li class="mb-3"><a class="text-decoration-none" href=""><img
+                                            src="signs/pros_cons_icon.png" alt="">&nbsp; Pros & Cons</a></li>
+                                <li class="mb-3"><a class="text-decoration-none" href=""><img
+                                            src="signs/ratings_icon.png" alt="">&nbsp;
+                                        Ratings</a></li>
+                                <li class="mb-3"><a class="text-decoration-none" href=""><img
+                                            src="signs/Finance_icon.png" alt="">&nbsp;
+                                        Financials</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-9 sidebar-2">
+                            <div class=" d-flex">
+                                <div class="col-md-4 mx-auto comparison-card">
+                                    <div class="text-center">
+                                        <img src="signs/Angleone.png" alt="Angel One">
+                                        <h2 class="mb-3">Angel One</h2>
+                                        <div class="mb-2">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star-half-alt text-warning"></i>
+                                        </div>
+                                        <h1 class="display-6">4.7</h1>
+                                        <button type="button" class="btn btn-outline-secondary"><a
+                                                class="text-white text-decoration-none" href="#">Open Demat
+                                                Account</a></button>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-1 d-flex align-items-center justify-content-center sidebar_vs">
+                                    <div class="bg-dark text-white rounded-circle p-3">VS</div>
+                                </div>
+
+
+                                <div class="col-md-4 p-2 mx-auto comparison-card">
+                                    <div class="text-center">
+                                        <img src="signs/zerodha.png" alt="Zerodha">
+                                        <h2 class="mb-3 mt-2">Zerodha</h2>
+                                        <div class="mb-2">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star-half-alt text-warning"></i>
+                                        </div>
+                                        <h1 class="display-6 mb-2">4.6</h1>
+                                        <button type="button" class="btn btn-outline-secondary"><a
+                                                class="text-white text-decoration-none" href="#">Open Demat
+                                                Account</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------------------------------------------------------------------------------------------------------- -->
+
+
+        <div id="centered-div">
+
+
+
+            <div class="top-margin">
+                <div class="text">
+                    <h2>Active Clients</h2>
+                    <div class="Chart">
+                        <canvas id="activeClientsChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-------------------------------------------------------------------------------------------------------------------------- -->
+
+
+            <div class="top-margin broker_comapre">
+                <h2>Account Opening and Maintenance Charges</h2>
+                <table class="table">
+                    <thead class="table-primary">
+                        <tr>
+                            <th scope="col" style="width: 33.33%;">Charges</th>
+                            <th scope="col" style="width: 33.33%;">Angle one</th>
+                            <th scope="col" style="width: 33.33%;">Zerodha</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table table-bordered">
+                        <tr>
+                            <td>Account Opening Charges</td>
+                            <td>0</td>
+                            <td>200</td>
+                        </tr>
+                        <tr>
+                            <td>Account Maintenance Charges</td>
+                            <td>₹0 for the first year then ₹ 23.6/Month</td>
+                            <td>₹ 300 per year</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="mt-5 broker_comapre">
+                <h2>Brokerage Charges</h2>
+                <table class="table">
+                    <thead class="table-primary">
+                        <tr>
+                            <th style="width: 33.33%;" scope="col">Brokerage Charges</th>
+                            <th style="width: 33.33%;" scope="col">Angel One</th>
+                            <th style="width: 33.33%;" scope="col">Zerodha</th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="table table-bordered">
+                        <tr>
+                            <td>Intraday</td>
+                            <td>₹ 20 or 0.25% (Whichever is lower)</td>
+                            <td>₹ 20 or 0.03% / executed order
+                                whichever is lower</td>
+                        </tr>
+                        <tr>
+                            <td>Futures</td>
+                            <td>₹ 20 or 0.25% (Whichever is lower)</td>
+                            <td>₹ 20 or 0.03% / executed order
+                                whichever is lower</td>
+                        </tr>
+                        <tr>
+                            <td>Options</td>
+                            <td>₹ 20 or 0.25% (Whichever is lower)</td>
+                            <td>₹ 20 per executed order (on
+                                Turnover)</td>
+                        </tr>
+                        <tr>
+                            <td>Delivery</td>
+                            <td>Zero</td>
+                            <td>Zero </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-------------------------------------------------------------------------------------------------------------------------- -->
+
+        
+            <div class="top-margin">
+                <h2>Brokerage Charges</h2>
+                
+                <div class="w-100 mt-5">
+                    <div class="brokage-charges mt-0">
+                        <div class="charge-card left-element">
+                            <div>
+                                <div class="ellipse"><img src="signs/Angleone.png" alt=""></div>
+                            </div>
+                            <span class="charge-value">23.6</span>
+                        </div>
+                        <div class="col-4 d-flex align-items-center justify-content-center">
+                            <p class="service-name">Auto Square Off</p>
+                        </div>
+                        <div class="charge-card right-element">
+                            <div>
+                                <div class="ellipse"><img src="signs/zerodha.png" alt=""></div>
+                            </div>
+                            <span class="charge-value">23.6</span>
+                        </div>
+                    </div>
+            
+                    <div class="brokage-charges">
+                        <div class="charge-card left-element">
+                            <div>
+                                <div class="ellipse"><img src="signs/Angleone.png" alt=""></div>
+                            </div>
+                            <span class="charge-value">23.6</span>
+                        </div>
+                        <div class="col-4 d-flex align-items-center justify-content-center">
+                            <p class="service-name">Call & Trade</p>
+                        </div>
+                        <div class="charge-card right-element">
+                            <div>
+                                <div class="ellipse"><img src="signs/zerodha.png" alt=""></div>
+                            </div>
+                            <span class="charge-value">23.6</span>
+                        </div>
+                    </div>
+            
+                    <div class="brokage-charges">
+                        <div class=" charge-card left-element">
+                            <div>
+                                <div class="ellipse"><img src="signs/Angleone.png" alt=""></div>
+                            </div>
+                            <span class="charge-value">23.6</span>
+                        </div>
+                        <div class="col-4 d-flex align-items-center justify-content-center">
+                            <p class="service-name m-0">DP Charges</p>
+                        </div>
+                        <div class="charge-card right-element">
+                            <div>
+                                <div class="ellipse"><img src="signs/zerodha.png" alt=""></div>
+                            </div>
+                            <span class="charge-value">23.6</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                
+
+
+            <!------------------------------------------------------------------------------------------------------------------------ -->
+
+
+            <div class="top-margin">
+                <div class="text">
+                    <h2>Complaints</h2>
+                    <div class="Chart">
+                        <canvas id="ComplaintsChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-------------------------------------------------------------------------------------------------------------------------- -->
+
+
+            <div class="top-margin">
+                <div class="text">
+                    <h2>Share Holding</h2>
+                    <div class="Chart">
+                        <canvas id="ShareHolding_AngleOne"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-margin">
+                <div class="text">
+                    <div class="Chart">
+                        <canvas id="ShareHolding_Zerodha"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-------------------------------------------------------------------------------------------------------------------------- -->
+
+            <div class="top-margin broker_comapre">
+                <h2>Pros & Cons</h2>
+                <table class="table">
+                    <thead class="table-danger">
+                        <th colspan="2">
+                            <div class="d-flex justify-content-center">
+                                <div class="d-flex justify-content-center fs-3 text-primary" style="width: 40%;">Pros
+                                </div>
+                                <img style="width: 50px; height: 40px;" src="signs/Angleone.png" alt="">
+                                <div class="d-flex justify-content-center fs-3 text-primary" style="width: 40%;">Cons
+                                </div>
+                            </div>
+                        </th>
+                    </thead>
+                    <tbody class="table table-bordered border-primary">
+                        <tr>
+                            <td style="width: 33.33%;">Angel One charges zero account opening charges as well as zero
+                                annual maintenance
+                                charges for only the
+                                first year</td>
+                            <td style="width: 33.33%;">Call and trade fee is charged at an extra Rs 20 per executed
+                                order.</td>
+                        </tr>
+                        <tr>
+                            <td>Zero brokerage charges for equity delivery and remaining segments like intraday and F&O
+                                which is flat Rs.
+                                20 per trade.</td>
+                            <td>User Interface is a bit complex as it is not for beginners.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="top-margin table">
+                    <thead class="table-danger">
+                        <th colspan="2">
+                            <div class="d-flex justify-content-center">
+                                <div class="d-flex justify-content-center fs-3 text-primary" style="width: 40%;">Pros
+                                </div>
+                                <img style="width: 40px; height: 40px;" src="signs/zerodha.png" alt="">
+                                <div class="d-flex justify-content-center fs-3 text-primary" style="width: 40%;">Cons
+                                </div>
+                            </div>
+                        </th>
+                    </thead>
+                    <tbody class="table table-bordered border-primary">
+                        <tr>
+                            <td style="width: 33.33%;">You don't pay any brokerage when you buy shares using
+                                cash-and-carry (CNC).
+                                Delivery trade has no
+                                leverage. Once bought, shares get delivered to your demat account and if sold, shares
+                                will get debited from
+                                your demat account.</td>
+                            <td style="width: 33.33%;">Doesn't provide stock tips, research reports or recommendations.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>They offer services under a simple pricing model. They charge 0.03% or Rs 20 per
+                                executed order, whichever
+                                is lower, regardless of the trade size. The maximum brokerage paid by the customer is Rs
+                                20 per trade.</td>
+                            <td>Lifetime free AMC demat account plans are not available.</td>
+                        </tr>
+                        <tr>
+                            <td>Zerodha is a self-clearing broker. They don't charge clearing charges from customers
+                            </td>
+                            <td>An additional charge of Rs 50 per executed order for MIS/BO/CO positions which are not
+                                square off by the
+                                customer.</td>
+                        </tr>
+                        <tr>
+                            <td>Set long-standing stop loss and target orders for your stock investments.</td>
+                            <td>Call & Trade is available at an additional fee of Rs 50 per executed order.</td>
+                        </tr>
+                        <tr>
+                            <td>An all-new mobile app built for both, passive investors and active day traders, with
+                                significant speed and
+                                user experience enhancements.</td>
+                            <td>3-in-1 trading account is not available as Zerodha doesn't provide banking services.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+            <div class="top-margin">
+                <h2>Ratings</h2>
+                <div class="">
+                    <div class="d-flex justify-content-between">
+                        <div class="col-md-4 broker-card">
+                            <div class="text-center">
+                                <img src="signs/Angleone.png" alt="AngelOne">
+                                <div class="fs-10">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star-half-alt text-warning"></i>
+                                </div>
+                                <h2>Angel One</h2>
+                                <h2 class="display-10">4.7</h2>
+                                <div class="d-flex justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-between">
+                                            <span>Trust Factor</span>
+                                            <span class="text-warning float-end">★★★★★</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between align-items-end">
+                                            <span>Ease of Use</span>
+                                            <span class="text-warning float-end">★★★</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between align-items-center">
+                                            <span>Technology</span>
+                                            <span class="text-warning float-end">★★★★</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button type="button" class="btn btn-outline-secondary"><a
+                                        class="text-white text-decoration-none" href="#">Open Demat Account</a></button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 broker-card">
+                            <div class="text-center">
+                                <img src="signs/zerodha.png" alt="zerodha">
+                                <div class="fs-10">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star-half-alt text-warning"></i>
+                                </div>
+                                <h2>Zerodha</h2>
+                                <h2 class="display-10">4.6</h2>
+                                <div class="d-flex justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-between">
+                                            <span>Trust Factor</span>
+                                            <span class="text-warning float-end">★★★★★</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between align-items-end">
+                                            <span>Ease of Use</span>
+                                            <span class="text-warning float-end">★★★</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between align-items-center">
+                                            <span>Technology</span>
+                                            <span class="text-warning float-end">★★★★</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button type="button" class="btn btn-outline-secondary"><a
+                                        class="text-white text-decoration-none" href="#">Open Demat Account</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-------------------------------------------------------------------------------------------------------------------------- -->
+
+            <div class="top-margin">
+                <div class="text">
+                    <h2>Financials</h2>
+                    <div class="Chart">
+                        <canvas id="financials_chart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-margin container">
+              <div class="row">
+                  <div class="col-12">
+                      <div class="card custom-card">
+                          <a href="#" class="card-body text-decoration-none">
+                              <h5 class="card-title">Looking for more Comparisons?</h5>
+                              <p class="card-text">See a list of frequently compared brokers and compare more before choosing.</p>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-12 mt-2">
+                      <div class="card custom-card">
+                          <a href="#" class="card-body text-decoration-none">
+                              <h5 class="card-title">Still Unable to Decide?</h5>
+                              <p class="card-text">See a list of frequently compared brokers and compare more before choosing.</p>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+        </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
